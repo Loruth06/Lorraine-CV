@@ -1,0 +1,80 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  color :rgb(238, 230, 230);
+	background-color: rgb(253, 254, 255);
+	display: flex;
+  font-family: "Open Sans", sans-serif;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(8, 3, 58);
+	padding: 20px;
+
+}
+.right {
+  color :#151515;
+	position: initial;
+	background-color: rgb(214, 222, 235);
+	padding: 20px;
+
+}
+.image {
+  margin-bottom: 30px;
+  height: 159px;
+  width: 159px;
+  top :50px ;
+  left : 70px;
+  border :5px solid white;
+  box-shadow: 3px 3px 10px grey;
+   
+}
+ .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+.h2 {
+	background-color: rgb(4, 19, 71);
+}
+.btn {
+color: rgb(242, 248, 248);
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  background-color: rgb(7, 22, 77);
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid hwb(212 2% 43%);
+}
+progress resume-progress {
+  height: 3px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+
+  --background-color: #ffffff;
+  --bar-empty: #ffffff80;
+  --bar-color: #393;
+
+  --glow-width: 0px;
+  --glow-radius: 10px;
+  --glow-color: #6f6;
+
+  background-color: var(--bar-empty);
+}
